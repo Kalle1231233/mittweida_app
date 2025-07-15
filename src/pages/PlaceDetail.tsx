@@ -55,12 +55,14 @@ export default function PlaceDetail() {
 
             <hr className="divider" />
 
+
             {/* Long description */}
             <div className="description">
-                {place.descriptionParagraphs?.map((para, idx) => (
+                {(place.descriptionParagraphs as unknown as string[])?.map((para: string, idx: number) => (
                     <p key={idx}>{para}</p>
                 ))}
             </div>
+
         </div>
     );
 }

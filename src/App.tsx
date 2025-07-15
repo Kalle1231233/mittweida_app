@@ -8,10 +8,9 @@ import PlaceDetail from './pages/PlaceDetail';
 import Settings from './pages/Settings';
 import Home from './pages/Home';
 
-
 function App() {
     return (
-        <Router>
+        <Router basename="/mittweida_app/">
             <Routes>
                 <Route element={<Layout />}>
                     <Route path="/" element={<Home />} />
