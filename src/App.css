@@ -1,0 +1,79 @@
+:root {
+  --bg: #ffffff;
+  --text: #121212;
+  --card: #f2f2f2;
+  --button-bg: #406cff;
+  --button-text: #ffffff;
+  --text-muted: #888;
+  --card-border: #ddd;
+}
+
+body.dark {
+  --bg: #121212;
+  --text: #f3f3f3;
+  --card: #2a2a2a;
+  --button-bg: #406cff;
+  --button-text: #ffffff;
+  --text-muted: #bbb;
+  --card-border: #444;
+}
+
+body {
+  background-color: var(--bg);
+  color: var(--text);
+  transition: background 0.3s, color 0.3s;
+}
+
+/* Allgemein */
+.leaflet-popup-content-wrapper {
+  background-color: var(--card) !important;
+  color: var(--text) !important;
+}
+
+.leaflet-popup-tip,
+.leaflet-popup-tip-container {
+  filter: brightness(0.2);
+}
+
+/* Link-/Button-Farben */
+.leaflet-popup-content a,
+.leaflet-popup-content button {
+  color: var(--button-bg) !important;
+}
+
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}

@@ -1,0 +1,73 @@
+.qr-scanner-page {
+    padding: 2rem 1rem;
+    text-align: center;
+    color: var(--text);
+}
+
+.qr-scanner-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
+
+.qr-scanner-description {
+    color: var(--text);
+    font-size: 0.95rem;
+    margin-bottom: 2rem;
+}
+
+.qr-scanner-box {
+    position: relative;
+    width: 100%;
+    max-width: 320px;
+    height: 320px;
+    margin: 0 auto;
+    border-radius: 16px;
+    overflow: hidden;
+    box-shadow: 0 4px 14px rgba(0, 0, 0, 0.15);
+    background: #000;
+}
+
+.qr-scanner-box video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.qr-scanner-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    border: 2px dashed var(--button-bg);
+    border-radius: 16px;
+    pointer-events: none;
+    box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.3);
+}
+
+.qr-line {
+    position: absolute;
+    top: 0;
+    left: 10%;
+    width: 80%;
+    height: 2px;
+    background-color: red;
+    animation: scan 2s infinite;
+    z-index: 10;
+}
+
+@keyframes scan {
+    0% {
+        top: 0%;
+    }
+    100% {
+        top: 100%;
+    }
+}
+
+.qr-detected {
+    margin-top: 1.5rem;
+    font-size: 0.95rem;
+    color: var(--text);
+}

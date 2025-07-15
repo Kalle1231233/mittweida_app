@@ -1,0 +1,40 @@
+.technikum-banner {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+	padding: 1rem;
+	color: #f0f0f0;
+}
+
+.technikum-image {
+	width: 100%;
+	max-width: 600px;
+	height: auto;
+	border-radius: 12px;
+	object-fit: cover;
+	box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+	margin-bottom: 1rem;
+}
+
+.technikum-text h2 {
+	font-size: 1.4rem;
+	margin-bottom: 0.4rem;
+}
+
+.technikum-text p {
+	font-size: 1rem;
+	color: #ccc;
+	line-height: 1.4;
+}
+
+/* Für kleine Displays */
+@media (max-width: 600px) {
+	.technikum-text h2 {
+		font-size: 1.2rem;
+	}
+
+	.technikum-text p {
+		font-size: 0.95rem;
+	}
+}

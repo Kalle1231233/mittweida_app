@@ -1,0 +1,81 @@
+.home-page {
+	padding: 2rem 1rem;
+	text-align: center;
+	background-color: var(--bg);
+	color: var(--text);
+	min-height: 100vh;
+}
+
+.home-header img.home-logo {
+	width: 90px;
+	height: 90px;
+	object-fit: contain;
+	border-radius: 50%;
+	margin-bottom: 0.75rem;
+	border: 2px solid var(--button-bg);
+}
+
+.home-header h1 {
+	font-size: 1.8rem;
+	margin: 0.5rem 0;
+}
+
+.home-header p {
+	font-size: 1rem;
+	color: var(--text);
+	max-width: 400px;
+	margin: 0 auto 2rem auto;
+}
+
+.home-actions {
+	display: flex;
+	flex-direction: column;
+	gap: 1.2rem;
+	max-width: 500px;
+	margin: 0 auto;
+}
+
+.home-card {
+	display: flex;
+	align-items: center;
+	background-color: var(--card);
+	padding: 1rem;
+	border-radius: 16px;
+	text-align: left;
+	text-decoration: none;
+	color: var(--text);
+	box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+	transition: transform 0.2s ease;
+}
+
+.home-card:hover {
+	transform: translateY(-3px);
+	background-color: rgba(100, 100, 255, 0.1);
+}
+
+.home-card .icon {
+	font-size: 1.8rem;
+	margin-right: 1rem;
+}
+
+.home-card h2 {
+	margin: 0;
+	font-size: 1.2rem;
+}
+
+.home-card p {
+	margin: 0.25rem 0 0;
+	font-size: 0.95rem;
+	color: var(--text);
+}
+
+@media (min-width: 600px) {
+	.home-actions {
+		flex-direction: row;
+		justify-content: space-between;
+	}
+
+	.home-card {
+		flex: 1;
+	}
+}
