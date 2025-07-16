@@ -1,0 +1,115 @@
+{
+  "places": [
+    {
+      "id": 1,
+      "name": "Technikum Mittweida",
+      "description": "Main building of Mittweida University (Carl‑Georg‑Weitzel‑Building), historically and technically significant.",
+      "image": "/assets/technikum.jpg",
+      "openingHours": "Mon–Fri 08:00–18:00",
+      "coordinates": { "lat": 50.9881, "lng": 12.9709 }
+    },
+    {
+      "id": 2,
+      "name": "Mittweida Castle",
+      "shortDescription": "Majestic castle with a rich history and scenic views.",
+      "descriptionParagraphs": [
+        "Mittweida Castle is a gem of Saxony’s architectural heritage, majestically situated above the Zschopau river. Originally built as a noble residence, it has witnessed centuries of regional transformation.",
+        "Today, its walls serve not only as a historical reminder but also as a venue for exhibitions, events, and celebrations. Visitors enjoy panoramic views, cultural programming, and a unique blend of tradition and modernity."
+      ],
+      "image": "/assets/schloss.jpg",
+      "openingHours": "Mon–Fri 09:00–17:00",
+      "address": "Schlossplatz 1, 09648 Mittweida",
+      "entry": "Free admission",
+      "rating": 4.5,
+      "accessible": true,
+      "familyFriendly": true,
+      "highlight": "Summer Festival every July",
+      "coordinates": {
+        "lat": 50.98556,
+        "lng": 12.98111
+      }
+    },
+
+
+    {
+      "id": 3,
+      "name": "Town Church of Our Lady",
+      "description": "Medieval church with a 54 m tower and 360° view over Mittweida’s old town.",
+      "image": "/assets/kirche.jpg",
+      "openingHours": "Tue–Sun 10:00–17:00",
+      "coordinates": { "lat": 50.98342, "lng": 12.9815 }
+    },
+    {
+      "id": 4,
+      "name": "Johannes Schilling House",
+      "description": "Birthplace of sculptor Johannes Schilling, now an art history museum.",
+      "image": "/assets/schilling.jpg",
+      "openingHours": "Tue–Sun 10:00–17:00",
+      "coordinates": { "lat": 50.9839, "lng": 12.9812 }
+    },
+    {
+      "id": 5,
+      "name": "Mittweida Old Town",
+      "description": "Narrow streets with restored residential and artisan houses – ideal for strolling.",
+      "image": "/assets/altstadt.jpg",
+      "openingHours": "Open daily 24 h",
+      "coordinates": { "lat": 50.9845, "lng": 12.9800 }
+    },
+    {
+      "id": 6,
+      "name": "Mittweida Water Tower",
+      "description": "Renovated brick structure, a visible landmark of the city.",
+      "image": "/assets/wasserturm.jpg",
+      "openingHours": "Outdoor area freely accessible",
+      "coordinates": { "lat": 50.9840, "lng": 12.9765 }
+    },
+    {
+      "id": 7,
+      "name": "Schwanenteich Park",
+      "description": "Idyllic park with a pond, walking paths, and a small animal area.",
+      "image": "/assets/schwanenteich.jpg",
+      "openingHours": "Daily 06:00–22:00",
+      "coordinates": { "lat": 50.9878, "lng": 12.9790 }
+    },
+    {
+      "id": 8,
+      "name": "Mittweida Outdoor Pool",
+      "description": "Summer open-air pool with swimming areas and family-friendly facilities.",
+      "image": "/assets/freibad.jpg",
+      "openingHours": "May–Aug 08:00–20:00",
+      "coordinates": { "lat": 50.9891, "lng": 12.9615 }
+    },
+    {
+      "id": 9,
+      "name": "Mittweida Train Station",
+      "description": "Regional station operating since 1852, an important hub for commuters.",
+      "image": "/assets/bahnhof.jpg",
+      "openingHours": "Open daily 24 h",
+      "coordinates": { "lat": 50.98735, "lng": 12.96033 }
+    },
+    {
+      "id": 10,
+      "name": "Old Vicarage Museum",
+      "description": "Museum showcasing Mittweida’s urban, craft, and industrial culture.",
+      "image": "/assets/pfarrhaeuser.jpg",
+      "openingHours": "Tue–Sun 10:00–18:00",
+      "coordinates": { "lat": 50.9835, "lng": 12.9813 }
+    },
+    {
+      "id": 11,
+      "name": "Mittweida Market Square",
+      "description": "Central square with weekly markets, a fountain, and half-timbered buildings.",
+      "image": "/assets/marktplatz.jpg",
+      "openingHours": "Daily 24 h, market Wed & Sat 07:00–12:00",
+      "coordinates": { "lat": 50.9842, "lng": 12.9805 }
+    },
+    {
+      "id": 12,
+      "name": "Space Flight Museum",
+      "description": "Special museum with exhibitions on space travel and technology.",
+      "image": "/assets/raumfahrt.jpg",
+      "openingHours": "Open by appointment",
+      "coordinates": { "lat": 50.98643, "lng": 12.97624 }
+    }
+  ]
+}
